@@ -2,26 +2,109 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+html {
+   scroll-behavior: smooth;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
+.logo {
+    font-family: 'Barlow';
+font-style: normal;
+font-weight: 600;
+font-size: 42px;
+line-height: 50px;
+
+color: #2F2E2E;
+}
+
+.navBarLinks {
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 24px;
+text-align: center;
+
+color: #2F2E2E;
+}
+
+.heroHeading {
+    font-family: 'Playfair Display';
+font-size: 51px;
+line-height: 60px;
+
+color: #2F2E2E;
+}
+
+.heropara {
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 200;
+font-size: 25px;
+line-height: 39px;
+
+color: #2F2E2E;
+}
+
+.ourServiceBg {
+    
+background: rgba(37, 77, 77, 0.2);
+}
+
+.planning {
+    font-family: 'Playfair Display';
+font-size: 27px;
+line-height: 32px;
+text-align: center;
+
+color: #2F2E2E;
+}
+
+.lastpartHeading {
+    font-family: 'Playfair Display';
+font-size: 28px;
+line-height: 33px;
+
+color: #2F2E2E;
+}
+
+.circle {
+    height: 10px;
+    width: 10px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
   }
-}
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
-}
+  .footerLogo {
+    font-family: 'Barlow';
+font-style: normal;
+font-weight: 600;
+font-size: 42px;
+line-height: 50px;
+
+color: #FAFAFA;
+  }
+
+  .footerPara {
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 17px;
+line-height: 29px;
+/* or 171% */
+
+
+color: #FAFAFA;
+  }
+
+  .footerHeading {
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 900;
+font-size: 24px;
+line-height: 29px;
+/* identical to box height */
+
+
+color: #FAFAFA;
+  }
